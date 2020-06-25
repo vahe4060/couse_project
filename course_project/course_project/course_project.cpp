@@ -30,7 +30,7 @@ int main()
 	
 	std::ifstream input;
 	input.open("../matrix.txt");
-	if (!input) {
+	if (!input) { 
 		std::cerr << "no matrix detected\n";
 		return 1;
 	}
